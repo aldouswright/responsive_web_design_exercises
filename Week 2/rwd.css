@@ -1,0 +1,184 @@
+/*
+	Todo: prepreocess with SASS;
+	Realization:
+	let go na yung sa arts. no more piano voice or compo
+	gamitin ang cs. don't force maging musician.
+	tinatanggal ang cs and math <- never ever ever gawin
+	gamitin yung sa computer di sa music.
+	Never ever baguhin ang ginawa before. Ganun pa rin (parang UP pa rin.) Di pa rin optimized agad.
+	Di na mabilis. wag baguhin ang ganung paggawa.
+	Wag baguhin ang mga ginawa before. Di na i computer lahat.
+	{arang UP na lagi. walang bago sa ginawa. avoid ang may bago sa ginawa
+	di }
+	ganun gagawin di bago
+	kung paano ginawa sa up ganun pa rin.
+	wag baguhin ang mga ginawa sa up.
+	itigil ang computer lahat/binago lahat.
+	no improvement sa workflow.
+	di nagagamitin ang gtd. di hahawakan ng bago ballpen. as long as di mukhang tanga ok lang.
+	ayusin and ganun pa rin. mus
+	walang magbabago sa ginagawa.
+	itigil ang lahat bago/lahat iba. <- 
+	parang
+	Tama
+	i-cs wag kontrolin alam sa UP ever. never ever kontrolin alam sa UP para ganun kalinaw. never block alam ko sa UP. i-CS
+	Alam lagi ang nangyari di natural. Alisin ang ginawa sa muhka. Tama lahat >> speed. Wag baguhin ang workflow. Human values >> reality. Specific ang al
+	Never i-block ang ginawa sa voice ang piano.
+	Scientific na ulit. Mabilis magnarrow down. CS na gamit. Never di alam ang naangyari/out of control. Mega accurate na ulit.
+	Never unscientific.
+	Never baguhin ang alam. Very specific ang alam. Parang CS lang lagi.
+	Di baguhin ang workflow. Narrow down ang mali never ganitong mabilis.
+	Never na bago ang workflow. Narrow down ang mali never ganitong mabilis. Tama lahat >>>> speed.
+	Ganun lagi kabilis magnarrow down. Di na natural.
+	Di na magaling. Mabilis na lang magnarrow down. Di magbabago ng workflow. Tama lahat talaga dapat. Ensure tama lahat lagi, and mabilis mag narrow down.
+	Corrections >> getting it correctly.
+	Use structures for human values. Work towards human value.
+	Mag-isa na magaano. Tama lang lahat and mag-isa na mag-aano.
+	Pantao lagi. 0 hayop.
+	Analyse. Don't memorize.
+	Academe before industry. Puro pattern lang.
+	Analyse before gawing para di paulit-ulit.
+*/
+
+/*
+	Mobile CSS
+*/
+/*
+	Reset CSS
+*/
+div, nav, ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*
+	Navigation CSS
+*/
+#navigation{
+	background-color: #008CC0;
+	padding: 1%;
+	
+}
+
+#navigation ul{
+	padding-left: 2%;
+}
+
+#navigation ul li{
+	float: left;
+	border-right: #FFFFFF;
+	border-width: 0 0 0 10px;
+	list-style-type: none;
+	margin-left: 2%;
+
+}
+
+#navigation ul li:first-child{
+	margin-left: 0px;
+	border-right: ;
+}
+
+#navigation ul li:last-child{
+	background-color: red;
+	clear:both;
+	float: none;
+	mar
+}
+
+#navigation ul li a{
+	color: #FFFFFF;
+	font-family: "Arial", "Sans-serif";
+}
+
+
+/*
+	Description CSS
+*/
+#description{
+	margin: 0 auto;
+	padding; 2%;
+}
+
+/*
+	Profile Picture CSS
+*/
+#profile_picture{
+	text-align: center;
+	margin: 2% 0;
+}
+
+#profile_picture img{
+	display: block;
+	margin: 0 auto;
+}
+
+/*
+	General CSS
+*/
+.underline{
+	text-decoration: underline;	
+}
+
+/*
+	Tablet CSS	
+*/
+@media screen and (min-width:600px){
+	#description{
+		width: 43%;
+		display: inline-block;
+		margin: 2% auto;
+		padding; 2%;
+		position: relative;
+		bottom: 3em;
+	}
+	#profile_picture{
+		width: 43%;
+		display: inline-block;
+		margin: 2% auto 0 auto;
+	}	
+}
+
+/*
+	Desktop CSS
+*/
+@media screen and (min-width:768px){
+	body{
+		height: 100%;
+	}
+	#navigation{
+		width: 27%;
+		margin: 0 3%;
+		display: inline-block;
+		background-color: #FFFFFF;
+	}
+
+	#navigation ul{
+		background-color: #008CC0;
+		
+	}
+
+	#navigation ul li{
+		list-style-type: none;
+		float: none;
+		margin: 0;
+	}
+
+	#description{
+		width: 27%;
+		margin: 0 2%;
+		display: inline-block;
+		/*
+		margin: 2% auto;
+		padding; 2%;
+		position: relative;
+		bottom: 3em;
+		*/
+	}
+
+	#profile_picture{
+		width: 27%;
+		display: inline-block;
+		margin: 2% 2% 0;
+	}	
+}
